@@ -13,7 +13,7 @@ load_dotenv()
 
 # Read settings from environment variables
 REMBG_API_URL = os.getenv("TELEGRAM_BOT_REMBG_URL", "http://rembg:7000/api/remove?url=")
-API_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN")
+API_TOKEN = os.getenv("8354994584:AAEoGtv_37knTF6ZgE_g5cLh8g8jAG98Wvo")
 DB_SETTINGS = {
     "dbname": os.getenv("TELEGRAM_BOT_DB_DBNAME", "rembg"),
     "username": os.getenv("TELEGRAM_BOT_DB_USERNAME", "remuser"),
